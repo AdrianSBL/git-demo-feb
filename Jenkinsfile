@@ -7,12 +7,12 @@ parameters {
 stages {
    stage('Read demo file') {
             steps {
-                sh “cat ${params.FileName}”
+                sh "cat ${params.FileName}"
             }
         }
     stage('Read Readme.md file') {
             steps {
-                sh 'cat README.md'
+                sh "cat README.md"
             }
         }
  
